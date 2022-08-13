@@ -1,0 +1,92 @@
+*{
+    cursor: pointer;
+}
+
+.amout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 10;
+    font-size: 2vh;
+}
+
+.amout .money{
+    width: 80vw;
+    padding: 3vh 0 3vh 0;
+    background-color: #1316DD;
+    color: white;
+    border-radius: 2vh;
+}
+
+.money h1{
+    font-weight: 600;
+}
+
+.pay{
+    display: flex;
+    height: 40vh;
+    width: 80vw;
+    border-radius: 2vh;
+    flex-direction: column;
+}
+
+.wallet{
+    display: flex;
+    height: 20vh;
+    width: 80vw;
+    border-radius: 2vh;
+    flex-direction: row;
+}
+
+.wallet .cell{
+    display: flex;
+    align-items: center;
+    height: 18vh;
+    width: 36vw;
+    margin: 2vh;
+    background-color: white;
+    border-radius: 2vh;
+    box-shadow: 1vh 1vh 1vh 0 rgb(243, 242, 242);
+    transition: .2s;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18vh;
+    width: 73vw;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 2vh;
+    box-shadow: 1vh 1vh 1vh 0 rgb(243, 242, 242);
+    transition: .2s;
+}
+
+.phone p{
+    font-size: 2.5vh;
+    padding-left: 4vw;
+}
+
+.cell:active, .phone:active{
+    background-color:whitesmoke;
+}
+
+.out, .in{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.out p, .in p{
+    padding: 1vh;
+    font-size: 2.5vh;
+}
+
+.cell .fa-solid, .phone .fa-solid{
+    font-size: 3vh;
+    color: #1316DD;
+}

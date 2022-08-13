@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="../home.js"></script>
+    <script src="https://kit.fontawesome.com/b7ffa5aaa8.js" crossorigin="anonymous"></script>
+    <title>home</title>
+</head>
+<body>
+
+    <div id="home-menu">
+        <div class="home">
+            <h1>สวัสดี ชื่อผู้ใช้งาน</h1>
+            <i class="fa-solid fa-circle-user"></i>
+        </div>
+        <div class="amout">
+            <div class="money">
+                <p>ยอดเงินของคุณ</p>
+                <h1>1,203.53 บาท</h1>
+            </div>
+            <div class="pay">
+                <div class="wallet">
+                    <div class="cell in" onclick="location.href='deposit.html'"><i class="fa-solid fa-arrow-down"></i><p>ฝากเงิน</p></div>
+                    <div class="cell out" onclick="location.href='withdraw.html'"><i class="fa-solid fa-wallet"></i><p>ถอดเงิน</p></div>
+                </div>
+                <div class="phone" onclick="location.href='phonepay.html'"><i class="fa-solid fa-phone"></i><p>เติมเงินโทรศัพท์</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="friends-menu">
+        <div class="friend-nav">
+            <button id="edit" onclick="myEdit()"><i class="fa-solid fa-pen"></i></button>
+            <p id="head">Friends</p>
+            <button id="find" onclick="myFind()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="body" id="body">
+            <div class="friend-card"><i class="fa-solid fa-face-smile"></i><p>ชื่อเพื่อน</p><button><i class="fa-solid fa-trash"></i></button></div>
+            <div class="friend-card"><i class="fa-solid fa-face-smile"></i><p>ชื่อเพื่อน</p><button><i class="fa-solid fa-trash"></i></button></div>
+            <div class="friend-card"><i class="fa-solid fa-face-smile"></i><p>ชื่อเพื่อน</p><button><i class="fa-solid fa-trash"></i></button></div>
+            <div class="friend-card"><i class="fa-solid fa-face-smile"></i><p>ชื่อเพื่อน</p><button><i class="fa-solid fa-trash"></i></button></div>
+        </div>
+    </div>
+
+    <div id="list-menu">
+        <div class="day">
+            <p>13 ส.ค 65</p>
+            <div class="list first">
+                <div class="head">รายการเงินเข้า</div>
+                <div class="no">เลขที่บัญชี xxx-xxxx</div>
+                <div class="amount">50.00 บาท</div>
+            </div>
+            <div class="list">
+                <div class="head">รายการเงินออก</div>
+                <div class="no">เลขที่บัญชี xxx-xxxx</div>
+                <div class="amount">50.00 บาท</div>
+            </div>
+            <div class="list">
+                <div class="head">รายการเงินเข้า</div>
+                <div class="no">หมายเลขโทรศัพท์ xxx-xxxx</div>
+                <div class="amount">50.00 บาท</div>
+            </div>
+        </div>
+        <div class="day">
+            <p>13 ส.ค 65</p>
+            <div class="list first">
+                <div class="head">รายการเงินเข้า</div>
+                <div class="no">เลขที่บัญชี xxx-xxxx</div>
+                <div class="amount">50.00 บาท</div>
+            </div>
+            <div class="list">
+                <div class="head">รายการเงินออก</div>
+                <div class="no">เลขที่บัญชี xxx-xxxx</div>
+                <div class="amount">50.00 บาท</div>
+            </div>
+            <div class="list">
+                <div class="head">รายการเงินเข้า</div>
+                <div class="no">หมายเลขโทรศัพท์ xxx-xxxx</div>
+                <div class="amount">50.00 บาท</div>
+            </div>
+        </div>
+        <div class="day">
+            <p>13 ส.ค 65</p>
+            <div class="list first">
+                <div class="head">รายการเงินเข้า</div>
+                <div class="no">เลขที่บัญชี xxx-xxxx</div>
+                <div class="amount">50.00 บาท</div>
+            </div>
+            <div class="list">
+                <div class="head">รายการเงินออก</div>
+                <div class="no">เลขที่บัญชี xxx-xxxx</div>
+                <div class="amount">50.00 บาท</div>
+            </div>
+            <div class="list">
+                <div class="head">รายการเงินเข้า</div>
+                <div class="no">หมายเลขโทรศัพท์ xxx-xxxx</div>
+                <div class="amount">50.00 บาท</div>
+            </div>
+        </div>
+    </div>
+        
+    <div class="nav"> 
+        <button id="main-list" onclick="list()"><i class="fa-solid fa-list"><p>รายการ</p></i></button>
+        <button id="main-home" onclick="home()"><i class="fa-solid fa-house"><p>Home</p></i></button>
+        <button id="friends" onclick="friends()"><i class="fa-solid fa-user"><p>Friends</p></i></button>
+    </div>
+</body>
+</html>

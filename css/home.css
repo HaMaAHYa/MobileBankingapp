@@ -1,0 +1,38 @@
+@import url('style.css');
+@import url('navbar.css');
+@import url('user.css');
+@import url('amout.css');
+@import url('friends.css');
+@import url('list.css');
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#home-menu{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#friends-menu{
+    height: 90vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#list-menu{
+    height: 90vh;
+    background-color: #0a0c75;
+    display: none;
+    flex-direction: column;
+    color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

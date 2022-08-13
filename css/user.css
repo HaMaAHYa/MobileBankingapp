@@ -1,0 +1,11 @@
+.home{
+    flex-grow: 1;
+    font-size: 1.5vh;
+    padding: 5vh;
+    color: black;
+}
+
+.fa-circle-user{
+    margin-top: 3vh;
+    font-size: 10vh;
+}

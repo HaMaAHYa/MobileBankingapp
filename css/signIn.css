@@ -1,0 +1,16 @@
+@import url('style.css');
+@import url('index.css');
+
+input{
+    margin: 3vh;
+    border: none;
+    background-color: aliceblue;
+    font-size: 2vh;
+    width: 50vw;
+    height: 6vh;
+    padding-left: 2vw;
+}
+
+input:focus{
+    outline: none;
+}

@@ -1,0 +1,66 @@
+@import url('style.css');
+@import url('navbar.css');
+
+.user{
+    background-color: #1316DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: white;
+}
+
+.user p{
+    font-weight: 500;
+}
+
+.fa-id-card{
+    font-size: 6vh;
+    border-radius: 50%;
+    padding-right: 5vw;
+}
+
+.body{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body h1{
+    font-weight: 500;
+}
+
+.body input{
+    padding: 1vh 3vw;
+    font-size: 2vh;
+    margin: 2vh;
+}
+
+#support{
+    padding: 1vh 3vw;
+    font-size: 2vh;
+    margin: 2vh;
+}
+
+.body button{
+    font-size: 2vh;
+    background-color: #1316DD;
+    padding: 1vh 5vw;
+    margin: 2vh;
+    color: white;
+    border-radius: 1vh;
+}
+
+.body button:active{
+    background-color: #1114be;
+}
+
+#main-home{
+    color: grey;
+}
+
+#main-home:active{
+    color: #1316DD;
+}
