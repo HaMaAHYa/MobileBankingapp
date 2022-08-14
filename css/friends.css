@@ -1,3 +1,5 @@
+@import url('style.css');
+
 .friend-nav{
     width: 100%;
     box-shadow: 0 0 2vh 0 rgb(199, 198, 198);
@@ -55,12 +57,54 @@
     flex-grow: 1;
 }
 
-button .fa-trash{
-    color: red;
+button .fa-pen{
     padding-right: 5vw;
     font-size: 2.5vh;
 }
 
-button .fa-trash:active{
-    color: rgb(184, 4, 4);
+button .fa-pen:active{
+    color: rgb(89, 88, 88);
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.main div{
+    margin: 2vh;    
+}
+
+input{
+    padding: 1vh;
+    border: none;
+    border-bottom: .2vh solid #1316DD;
+    transition: .5s;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: .2vh solid #0f12b9;
+}
+
+.main button{
+    padding: 1vh 0;
+    color: white;
+    background-color: rgb(31, 180, 31);
+    border: none;
+    border-radius: 2vh;
+    min-width: 15vh;
+}
+
+.main .del{
+    background-color: red;
+}
+
+.main .del:active{
+    background-color: rgb(186, 10, 10);
 }

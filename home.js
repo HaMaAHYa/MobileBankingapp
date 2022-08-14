@@ -6,13 +6,6 @@ function friends(){
     document.getElementById('home-menu').style.display = 'none';
     document.getElementById('list-menu').style.display = 'none';
     document.getElementById('friends-menu').style.display = 'flex';
-
-
-    var i;
-    var bin = document.getElementById('body').querySelectorAll(".fa-trash");
-    for (i = 0; i < bin.length; i++) {
-        bin[i].style.display = "none";
-    }
 }
 
 function home(){
@@ -31,27 +24,6 @@ function list(){
     document.getElementById('list-menu').style.display = 'flex';
     document.getElementById('home-menu').style.display = 'none';
     document.getElementById('friends-menu').style.display = 'none';
-}
-
-
-
-
-function myEdit(){
-    var edit = document.getElementById('edit');
-    var i;
-    var bin = document.getElementById('body').querySelectorAll(".fa-trash");
-    if (edit.style.color === "grey") {
-        edit.style.color = "#1316DD";
-        for (i = 0; i < bin.length; i++) {
-            bin[i].style.display = "flex";
-        }
-    }else{
-        i = 0;
-        edit.style.color = "grey";
-        for (i = 0; i < bin.length; i++) {
-            bin[i].style.display = "none";
-        }
-    }
 }
 
 function myFind(){
